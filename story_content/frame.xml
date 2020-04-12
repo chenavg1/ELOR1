@@ -36,7 +36,7 @@
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="elapsed" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -1155,20 +1155,19 @@
       <string id="acc_definition">הגדרה</string>
       <string id="glossary">מילון מונחים</string>
       <string id="terms">מונחים</string>
-      <string id="outline">תפריט</string>
-      <string id="disabled_orientation">סובב את המכשיר שלך</string>
-      <string id="next">הבא</string>
       <string id="acc_next">הבא</string>
+      <string id="next">הבא</string>
+      <string id="disabled_orientation">סובב את המכשיר שלך</string>
+      <string id="outline">תפריט</string>
       <string id="transcript_chk">הערות</string>
-      <string id="transcript">הערות</string>
-      <string id="bio">ביוגרפיה</string>
-      <string id="more_info">מידע נוסף</string>
-      <string id="closed_captions">כתוביות</string>
-      <string id="acc_pause">השהה</string>
       <string id="acc_play">הפעל</string>
+      <string id="acc_pause">השהה</string>
       <string id="send_an_email">שלח הודעת דוא"ל</string>
+      <string id="more_info">מידע נוסף</string>
+      <string id="bio">ביוגרפיה</string>
+      <string id="transcript">הערות</string>
+      <string id="closed_captions">כתוביות</string>
       <string id="prev">הקודם</string>
-      <string id="acc_previous">הקודם</string>
       <string id="question_list">רשימת שאלות</string>
       <string id="acc_replay">הפעל מחדש</string>
       <string id="resources">משאבים</string>
@@ -1180,10 +1179,11 @@
       <string id="search_in">חיפוש ב:</string>
       <string id="search_results">תוצאות חיפוש</string>
       <string id="acc_skipnavigation">.דלג על הניווט הקש "אנטר" כדי לחזור לשקופית</string>
-      <string id="slide_text_chk">טקסט שקופית</string>
-      <string id="submitall">שלח הכול</string>
-      <string id="acc_submitall">שלח הכול</string>
       <string id="submit">שלח</string>
+      <string id="acc_previous">הקודם</string>
+      <string id="acc_submitall">שלח הכול</string>
+      <string id="submitall">שלח הכול</string>
+      <string id="slide_text_chk">טקסט שקופית</string>
       <string id="acc_submit">שלח</string>
       <string id="acc_volume">עוצמת קול</string>
     </string_table>
@@ -1200,16 +1200,47 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6Q4ohMVVlpy" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.6Q4ohMVVlpy" displaytext="מבוא" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6Q4ohMVVlpy.6EW5brhYkRd" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5wgYcafhR2y" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6PgneseH4jl" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6KZcdNmAPA0" displaytext="מסגרות אלאור   " expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6mVmpQgvBRL" displaytext="מסגרות אלאור   " expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6rFy2sgoYCw" displaytext=" ה”מש פנימיות התפתחותית שכלית מוגבלות" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6EW5brhYkRd" displaytext="מבוא 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5wgYcafhR2y" displaytext="מבוא 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6PgneseH4jl" displaytext="מבוא 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6KZcdNmAPA0" displaytext="בתים לחיים" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6mVmpQgvBRL" displaytext="בתים לחיים" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6rFy2sgoYCw" displaytext="פנימיות" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6TKoS1PQcga" displaytext="מרכזי תעסוקה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5lUp3sXFXDC" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5lUp3sXFXDC" displaytext="בית ספר" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5v0kfkw8SxU" displaytext="ארגון אלאור נותן מענה לאוכלוסיות" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.61mY8PRcWjV" displaytext="אבחון אדם כבעל מוגבלות שכלית התפתחותית מותנה בקיומם של כל הקריטריונים הבאים:" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6Z9FfRAWNM7" displaytext="סמן את המסגרות השייכות לארגון אלאור" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6Rk2QUSleq6" displaytext="אפיוני אוכלוסייה" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6XEHcz9QptN" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.67Tx2pdLNfJ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6CAszPLkbvI" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5vItpxaTTVg" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6SxNqIpQbVs" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.63DPMj3nvyS" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5o5eD0H6PhU" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5lGuKDOmnQL" displaytext="אוטיזם 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6nWbzcyGjc8" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5gzGAxCNtd2" displaytext="אוטיזם 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6lpBTVn4KZw" displaytext="אוטיזם 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5Yno5Tgashc" displaytext="לאיזה שני תחומים אנו מתייחסים באפיון אוטיזם?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6I3S7QWpGTM" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5Y0w2oBvMuk" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5hVBNtEy8QZ" displaytext="בלומדה הבאה נעסוק בשלושה תחומים עקריים" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.60fJ74EngRY" displaytext=" ליקוי בהתנהגויות תקשורתיות כולל:" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5XzPxsltZ9g" displaytext=" סימנים לליקוי בויסות חושי" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5taCXBP5Dxr" displaytext="קשיים בהבנה של יחסים חברתיים כוללים" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5jmMbzuh5Uw" displaytext="מערך השירותים שארגון אלאור מספק לדיירים במסגרות:" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5c2shxGLaMn" displaytext="מסגרות אלאור פרושות:" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6myNQxU7mgA" displaytext="לאדם עם מוגבלות שכלית התפתחותית יש ירידה בתפקוד השכלי של:" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6RWgjqaxAxJ" displaytext="משמעות המונח קשיים בהתנהגות מסתגלת:" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5ovkZX7KaV7" displaytext="המונח &quot;מוגבלות שכלית התפתחותית&quot;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5pOJ3ga5SFf" displaytext="המונח &quot;מוגבלות שכלית התפתחותית&quot; נקבע כאשר המוגבלות השכלית נוצרה:" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6ejUPwUIgbG" displaytext="במסגרות אלאור מטפלים באוכלוסייה בגילאים:" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6KkRhGLAiI1" displaytext="מהי התנהגות חזרתית?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6APbL9lITbK" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
