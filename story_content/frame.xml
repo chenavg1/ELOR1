@@ -1141,51 +1141,51 @@
   <string_tables>
     <string_table name="npnxnanbnsnfns00001100101">
       <string id="acc_active">פעיל</string>
-      <string id="search_results">תוצאות חיפוש</string>
-      <string id="search_in">חיפוש ב:</string>
-      <string id="acc_search_input">חיפוש</string>
-      <string id="search">חיפוש...</string>
-      <string id="restart">הפעל מחדש</string>
-      <string id="acc_resources">משאבים</string>
-      <string id="resources">משאבים</string>
-      <string id="acc_replay">הפעל מחדש</string>
-      <string id="question_list">רשימת שאלות</string>
-      <string id="resume">המשך מהיכן שהפסקת</string>
-      <string id="acc_skipnavigation">.דלג על הניווט הקש "אנטר" כדי לחזור לשקופית</string>
-      <string id="acc_volume">עוצמת קול</string>
-      <string id="acc_submit">שלח</string>
-      <string id="submit">שלח</string>
-      <string id="acc_submitall">שלח הכול</string>
-      <string id="submitall">שלח הכול</string>
-      <string id="slide_text_chk">טקסט שקופית</string>
-      <string id="acc_previous">הקודם</string>
-      <string id="prev">הקודם</string>
-      <string id="closed_captions">כתוביות</string>
-      <string id="terms">מונחים</string>
-      <string id="glossary">מילון מונחים</string>
-      <string id="acc_definition">הגדרה</string>
-      <string id="definition">הגדרה</string>
-      <string id="acc_finish">סיום</string>
-      <string id="finish">סיום</string>
-      <string id="filter">סינון</string>
-      <string id="exit">יציאה</string>
-      <string id="continueresponsive">המשך</string>
-      <string id="continue">המשך</string>
-      <string id="acc_closed_captions">כתוביות מקודדות. הקש על מקש הרווח כדי להפעיל ולכבות כתוביות.</string>
-      <string id="close">סגור</string>
-      <string id="clear">נקה וחזור לתפריט</string>
       <string id="check_include">סמן כדי לכלול</string>
-      <string id="transcript">הערות</string>
-      <string id="bio">ביוגרפיה</string>
-      <string id="more_info">מידע נוסף</string>
-      <string id="send_an_email">שלח הודעת דוא"ל</string>
-      <string id="acc_pause">השהה</string>
-      <string id="acc_play">הפעל</string>
-      <string id="transcript_chk">הערות</string>
+      <string id="clear">נקה וחזור לתפריט</string>
+      <string id="close">סגור</string>
+      <string id="acc_closed_captions">כתוביות מקודדות. הקש על מקש הרווח כדי להפעיל ולכבות כתוביות.</string>
+      <string id="continue">המשך</string>
+      <string id="continueresponsive">המשך</string>
+      <string id="exit">יציאה</string>
+      <string id="filter">סינון</string>
+      <string id="finish">סיום</string>
+      <string id="acc_finish">סיום</string>
+      <string id="definition">הגדרה</string>
+      <string id="acc_definition">הגדרה</string>
+      <string id="glossary">מילון מונחים</string>
+      <string id="terms">מונחים</string>
       <string id="acc_next">הבא</string>
       <string id="next">הבא</string>
       <string id="disabled_orientation">סובב את המכשיר שלך</string>
       <string id="outline">תפריט</string>
+      <string id="transcript_chk">הערות</string>
+      <string id="acc_play">הפעל</string>
+      <string id="acc_pause">השהה</string>
+      <string id="send_an_email">שלח הודעת דוא"ל</string>
+      <string id="more_info">מידע נוסף</string>
+      <string id="bio">ביוגרפיה</string>
+      <string id="transcript">הערות</string>
+      <string id="closed_captions">כתוביות</string>
+      <string id="prev">הקודם</string>
+      <string id="question_list">רשימת שאלות</string>
+      <string id="acc_replay">הפעל מחדש</string>
+      <string id="resources">משאבים</string>
+      <string id="acc_resources">משאבים</string>
+      <string id="restart">הפעל מחדש</string>
+      <string id="resume">המשך מהיכן שהפסקת</string>
+      <string id="search">חיפוש...</string>
+      <string id="acc_search_input">חיפוש</string>
+      <string id="search_in">חיפוש ב:</string>
+      <string id="search_results">תוצאות חיפוש</string>
+      <string id="acc_skipnavigation">.דלג על הניווט הקש "אנטר" כדי לחזור לשקופית</string>
+      <string id="submit">שלח</string>
+      <string id="acc_previous">הקודם</string>
+      <string id="acc_submitall">שלח הכול</string>
+      <string id="submitall">שלח הכול</string>
+      <string id="slide_text_chk">טקסט שקופית</string>
+      <string id="acc_submit">שלח</string>
+      <string id="acc_volume">עוצמת קול</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1210,9 +1210,9 @@
             <slidelink slideid="_player.6Q4ohMVVlpy.6rFy2sgoYCw" displaytext="פנימיות" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6TKoS1PQcga" displaytext="מרכזי תעסוקה" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5lUp3sXFXDC" displaytext="בית ספר" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5v0kfkw8SxU" displaytext="ארגון אלאור נותן מענה לאוכלוסיות" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.61mY8PRcWjV" displaytext="אבחון אדם כבעל מוגבלות שכלית התפתחותית מותנה בקיומם של כל הקריטריונים הבאים:" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6Z9FfRAWNM7" displaytext="סמן את המסגרות השייכות לארגון אלאור" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5v0kfkw8SxU" displaytext="ארגון אלאור נותן מענה לאוכלוסיות&#xA;קייימת יותר מתשובה אחת נכונה&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.61mY8PRcWjV" displaytext="אבחון אדם כבעל מוגבלות שכלית התפתחותית מותנה בקיומם של כל הקריטריונים הבאים:&#xA;קייימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6Z9FfRAWNM7" displaytext="סמן את המסגרות השייכות לארגון אלאור&#xA;קייימת יותר מתשובה אחת נכונה&#xA;" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6Rk2QUSleq6" displaytext="אפיוני אוכלוסייה" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6XEHcz9QptN" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.67Tx2pdLNfJ" displaytext="Untitled Slide" expand="false" type="slide" />
@@ -1229,8 +1229,8 @@
             <slidelink slideid="_player.6Q4ohMVVlpy.6I3S7QWpGTM" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5Y0w2oBvMuk" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5hVBNtEy8QZ" displaytext="בלומדה הבאה נעסוק בשלושה תחומים עקריים" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.60fJ74EngRY" displaytext=" ליקוי בהתנהגויות תקשורתיות כולל:" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5XzPxsltZ9g" displaytext=" סימנים לליקוי בויסות חושי" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.60fJ74EngRY" displaytext=" ליקוי בהתנהגויות תקשורתיות כולל:&#xA;קייימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5XzPxsltZ9g" displaytext=" סימנים לליקוי בויסות חושי&#xA;קייימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5taCXBP5Dxr" displaytext="קשיים בהבנה של יחסים חברתיים כוללים" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5jmMbzuh5Uw" displaytext="מערך השירותים שארגון אלאור מספק לדיירים במסגרות:" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5c2shxGLaMn" displaytext="מסגרות אלאור פרושות:" expand="false" type="slide" />
