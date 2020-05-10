@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001100101" textdirection="rtl" device="true" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns01001100001" textdirection="rtl" device="true" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000101" font="Open Sans" controllayout="npnxnanbsnfns00000000101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
-    <layout name="pxabnsnfns00000000101" font="Open Sans" controllayout="pxabnsnfns00000000101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
-    <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
-    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
-    <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
-    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="npnxnanbsnfns01000000001" font="Open Sans" controllayout="npnxnanbsnfns01000000001" colorscheme="npnxnanbnsnfns01001100001" string_table="npnxnanbnsnfns01001100001" />
+    <layout name="pxabnsnfns01000000001" font="Open Sans" controllayout="pxabnsnfns01000000001" colorscheme="npnxnanbnsnfns01001100001" string_table="npnxnanbnsnfns01001100001" />
+    <layout name="npxnabnsnfns01000000001" font="Open Sans" controllayout="npxnabnsnfns01000000001" colorscheme="npnxnanbnsnfns01001100001" string_table="npnxnanbnsnfns01001100001" />
+    <layout name="npnxnanbnsnfns01000000001" font="Open Sans" controllayout="npnxnanbnsnfns01000000001" colorscheme="npnxnanbnsnfns01001100001" string_table="npnxnanbnsnfns01001100001" />
+    <layout name="pxabnsnfns01000000000" font="Open Sans" controllayout="pxabnsnfns01000000000" colorscheme="npnxnanbnsnfns01001100001" string_table="npnxnanbnsnfns01001100001" />
+    <layout name="npnxnanbnsnfns01001100001" font="Open Sans" controllayout="npnxnanbnsnfns01001100001" colorscheme="npnxnanbnsnfns01001100001" string_table="npnxnanbnsnfns01001100001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -14,11 +14,19 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="מצגת נהלי אלאור מוגבלויות" />
+              <option name="title_text" value="לומדת היכרות עם מסגרות אלאור מוגבלויות" />
             </options>
           </option>
-          <option name="logo_enabled" value="false">
-            <options />
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="189" />
+                  <property name="height" value="103" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/5xban3lDziw.png" />
+            </options>
           </option>
           <option name="sidebar_enabled" value="true">
             <options>
@@ -58,16 +66,17 @@
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option name="volume" value="true" />
+          <option name="volume" value="false" />
           <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
             </options>
           </option>
           <option name="pauseplay" value="false" />
           <option name="replay" value="false" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="true">
+          <option name="closed_captions" value="false">
             <options>
               <option name="font" value="Open Sans" />
             </options>
@@ -76,18 +85,25 @@
       </optiongroup>
       <optiongroup name="bottombaroptions">
         <options>
-          <option name="bottombar_enabled" value="true" />
+          <option name="bottombar_enabled" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
         </options>
       </optiongroup>
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00000000101">
-      <control name="volume" enabled="true" />
+    <control_layout name="npnxnanbsnfns01000000001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -105,12 +121,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000101">
-      <control name="volume" enabled="true" />
+    <control_layout name="pxabnsnfns01000000001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -128,12 +144,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00000000101">
-      <control name="volume" enabled="true" />
+    <control_layout name="npxnabnsnfns01000000001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
@@ -151,12 +167,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00000000101">
-      <control name="volume" enabled="true" />
+    <control_layout name="npnxnanbnsnfns01000000001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -174,12 +190,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000100">
-      <control name="volume" enabled="true" />
+    <control_layout name="pxabnsnfns01000000000">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -197,12 +213,12 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001100101">
-      <control name="volume" enabled="true" />
+    <control_layout name="npnxnanbnsnfns01001100001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -222,7 +238,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns00001100101">
+    <colorscheme name="npnxnanbnsnfns01001100001">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1136,56 +1152,76 @@
           </color>
         </group_colors>
       </color_group>
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns00001100101">
+    <string_table name="npnxnanbnsnfns01001100001">
       <string id="acc_active">פעיל</string>
-      <string id="search_results">תוצאות חיפוש</string>
-      <string id="search_in">חיפוש ב:</string>
-      <string id="acc_search_input">חיפוש</string>
-      <string id="search">חיפוש...</string>
-      <string id="restart">הפעל מחדש</string>
-      <string id="acc_resources">משאבים</string>
-      <string id="resources">משאבים</string>
-      <string id="acc_replay">הפעל מחדש</string>
-      <string id="question_list">רשימת שאלות</string>
-      <string id="resume">המשך מהיכן שהפסקת</string>
-      <string id="acc_skipnavigation">.דלג על הניווט הקש "אנטר" כדי לחזור לשקופית</string>
-      <string id="acc_volume">עוצמת קול</string>
-      <string id="acc_submit">שלח</string>
-      <string id="submit">שלח</string>
-      <string id="acc_submitall">שלח הכול</string>
-      <string id="submitall">שלח הכול</string>
-      <string id="slide_text_chk">טקסט שקופית</string>
-      <string id="acc_previous">הקודם</string>
-      <string id="prev">הקודם</string>
-      <string id="closed_captions">כתוביות</string>
-      <string id="terms">מונחים</string>
-      <string id="glossary">מילון מונחים</string>
-      <string id="acc_definition">הגדרה</string>
-      <string id="definition">הגדרה</string>
-      <string id="acc_finish">סיום</string>
-      <string id="finish">סיום</string>
-      <string id="filter">סינון</string>
-      <string id="exit">יציאה</string>
-      <string id="continueresponsive">המשך</string>
-      <string id="continue">המשך</string>
-      <string id="acc_closed_captions">כתוביות מקודדות. הקש על מקש הרווח כדי להפעיל ולכבות כתוביות.</string>
-      <string id="close">סגור</string>
-      <string id="clear">נקה וחזור לתפריט</string>
       <string id="check_include">סמן כדי לכלול</string>
+      <string id="clear">נקה וחזור לתפריט</string>
+      <string id="close">סגור</string>
+      <string id="acc_closed_captions">כתוביות מקודדות. הקש על מקש הרווח כדי להפעיל ולכבות כתוביות.</string>
+      <string id="continue">המשך</string>
+      <string id="continueresponsive">המשך</string>
+      <string id="exit">יציאה</string>
+      <string id="filter">סינון</string>
+      <string id="finish">סיום</string>
+      <string id="acc_finish">סיום</string>
+      <string id="definition">הגדרה</string>
+      <string id="acc_definition">הגדרה</string>
+      <string id="glossary">מילון מונחים</string>
+      <string id="terms">מונחים</string>
+      <string id="action">פעולה</string>
+      <string id="keyboardshortcuts">קיצורי מקשים</string>
+      <string id="shortcuthelp">רשימת קיצורי מקשים</string>
+      <string id="shortcut">קיצור דרך</string>
+      <string id="togglezoom">מעבר בין מצבי זום</string>
+      <string id="outline">תפריט</string>
+      <string id="disabled_orientation">סובב את המכשיר שלך</string>
+      <string id="next">הבא</string>
+      <string id="acc_next">הבא</string>
+      <string id="transcript_chk">הערות</string>
       <string id="transcript">הערות</string>
       <string id="bio">ביוגרפיה</string>
       <string id="more_info">מידע נוסף</string>
-      <string id="send_an_email">שלח הודעת דוא"ל</string>
+      <string id="closed_captions">כתוביות</string>
       <string id="acc_pause">השהה</string>
       <string id="acc_play">הפעל</string>
-      <string id="transcript_chk">הערות</string>
-      <string id="acc_next">הבא</string>
-      <string id="next">הבא</string>
-      <string id="disabled_orientation">סובב את המכשיר שלך</string>
-      <string id="outline">תפריט</string>
+      <string id="send_an_email">שלח הודעת דוא"ל</string>
+      <string id="prev">הקודם</string>
+      <string id="acc_previous">הקודם</string>
+      <string id="question_list">רשימת שאלות</string>
+      <string id="acc_replay">הפעל מחדש</string>
+      <string id="resources">משאבים</string>
+      <string id="acc_resources">משאבים</string>
+      <string id="restart">הפעל מחדש</string>
+      <string id="resume">המשך מהיכן שהפסקת</string>
+      <string id="acc_search_input">חיפוש</string>
+      <string id="search_toggle">חיפוש</string>
+      <string id="sidebar_toggle">הצגה/הסתרה של הסרגל הצדי</string>
+      <string id="desktop_start">התחל קורס</string>
+      <string id="mobile_start">התחל קורס</string>
+      <string id="search">חיפוש...</string>
+      <string id="search_in">חיפוש ב:</string>
+      <string id="search_results">תוצאות חיפוש</string>
+      <string id="acc_skipnavigation">.דלג על הניווט הקש "אנטר" כדי לחזור לשקופית</string>
+      <string id="slide_text_chk">טקסט שקופית</string>
+      <string id="submitall">שלח הכול</string>
+      <string id="acc_submitall">שלח הכול</string>
+      <string id="submit">שלח</string>
+      <string id="acc_submit">שלח</string>
+      <string id="acc_volume">עוצמת קול</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1204,43 +1240,19 @@
           <links>
             <slidelink slideid="_player.6Q4ohMVVlpy.6EW5brhYkRd" displaytext="מבוא 1" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5wgYcafhR2y" displaytext="מבוא 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6I5o51swf7v" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6PgneseH4jl" displaytext="מבוא 3" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6KZcdNmAPA0" displaytext="בתים לחיים" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6mVmpQgvBRL" displaytext="בתים לחיים" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6rFy2sgoYCw" displaytext="פנימיות" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6TKoS1PQcga" displaytext="מרכזי תעסוקה" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5lUp3sXFXDC" displaytext="בית ספר" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5v0kfkw8SxU" displaytext="ארגון אלאור נותן מענה לאוכלוסיות&#xA;קייימת יותר מתשובה אחת נכונה&#xA;" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.61mY8PRcWjV" displaytext="אבחון אדם כבעל מוגבלות שכלית התפתחותית מותנה בקיומם של כל הקריטריונים הבאים:&#xA;קייימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6Z9FfRAWNM7" displaytext="סמן את המסגרות השייכות לארגון אלאור&#xA;קייימת יותר מתשובה אחת נכונה&#xA;" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6Rk2QUSleq6" displaytext="אפיוני אוכלוסייה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6XEHcz9QptN" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.67Tx2pdLNfJ" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6CAszPLkbvI" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5vItpxaTTVg" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6SxNqIpQbVs" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.63DPMj3nvyS" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5o5eD0H6PhU" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5lGuKDOmnQL" displaytext="אוטיזם 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6nWbzcyGjc8" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5gzGAxCNtd2" displaytext="אוטיזם 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6lpBTVn4KZw" displaytext="אוטיזם 3" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5Yno5Tgashc" displaytext="לאיזה שני תחומים אנו מתייחסים באפיון אוטיזם?" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6I3S7QWpGTM" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5Y0w2oBvMuk" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5hVBNtEy8QZ" displaytext="בלומדה הבאה נעסוק בשלושה תחומים עקריים" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.60fJ74EngRY" displaytext=" ליקוי בהתנהגויות תקשורתיות כולל:&#xA;קייימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5XzPxsltZ9g" displaytext=" סימנים לליקוי בויסות חושי&#xA;קייימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5taCXBP5Dxr" displaytext="קשיים בהבנה של יחסים חברתיים כוללים" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.5v0kfkw8SxU" displaytext="ארגון אלאור נותן מענה לאוכלוסיות קייימת יותר מתשובה אחת נכונה " expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.6Z9FfRAWNM7" displaytext="סמן את המסגרות השייכות לארגון אלאור קייימת יותר מתשובה אחת נכונה " expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5jmMbzuh5Uw" displaytext="מערך השירותים שארגון אלאור מספק לדיירים במסגרות:" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.5c2shxGLaMn" displaytext="מסגרות אלאור פרושות:" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6myNQxU7mgA" displaytext="לאדם עם מוגבלות שכלית התפתחותית יש ירידה בתפקוד השכלי של:" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6RWgjqaxAxJ" displaytext="משמעות המונח קשיים בהתנהגות מסתגלת:" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5ovkZX7KaV7" displaytext="המונח &quot;מוגבלות שכלית התפתחותית&quot;" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.5pOJ3ga5SFf" displaytext="המונח &quot;מוגבלות שכלית התפתחותית&quot; נקבע כאשר המוגבלות השכלית נוצרה:" expand="false" type="slide" />
             <slidelink slideid="_player.6Q4ohMVVlpy.6ejUPwUIgbG" displaytext="במסגרות אלאור מטפלים באוכלוסייה בגילאים:" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6KkRhGLAiI1" displaytext="מהי התנהגות חזרתית?" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q4ohMVVlpy.6APbL9lITbK" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q4ohMVVlpy.68J9EhZq8lm" displaytext="משוב לומדת היכרות עם מסגרות אלאור" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
